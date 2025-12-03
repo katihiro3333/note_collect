@@ -1,0 +1,2 @@
+# note_collect
+noteで読んだ記事をChrome拡張＋Pythonで収集し、埋め込みとクラスタリングで3D意味マップとして可視化するツール。
