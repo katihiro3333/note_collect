@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Note URL Saver</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 10px;
+      min-width: 250px;
+    }
+    button {
+      width: 100%;
+      margin: 5px 0;
+      padding: 6px;
+      cursor: pointer;
+    }
+    #status {
+      margin-top: 5px;
+      font-size: 12px;
+      color: #555;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <button id="saveUrlBtn">このページのURLを保存</button>
+  <button id="exportJsonBtn">JSONをダウンロード</button>
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

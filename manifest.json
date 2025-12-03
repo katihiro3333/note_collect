@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Note URL Saver",
+  "version": "1.0.0",
+  "description": "開いているページのURLをJSONにどんどん保存する拡張機能です。",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Note URL Saver"
+  }
+}
